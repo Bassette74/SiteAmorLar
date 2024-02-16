@@ -1,0 +1,95 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccc; /* Rosa suave para o cabeçalho */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px; /* Tamanho do título */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #333; /* Cor do texto do menu */
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+h2 {
+    color: #333;
+}
+
+.vagas {
+    display: flex; /* Usar flexbox para alinhar as vagas */
+    flex-wrap: wrap;
+    justify-content: center; /* Centralizar as vagas */
+}
+
+.vaga {
+    background-color: #fff; /* Fundo branco para as vagas */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px; /* Espaçamento entre as vagas */
+    box-sizing: border-box; /* Garante que a largura das vagas seja correta */
+}
+
+.vaga h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.vaga p {
+    color: #666; /* Cor do texto da descrição da vaga */
+}
+
+footer {
+    background-color: #ffcccc; /* Rosa suave para o rodapé */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .contato p {
+    margin: 5px 0;
+}
+
+footer .contato a {
+    color: #333; /* Cor do texto do rodapé */
+    text-decoration: none;
+}
